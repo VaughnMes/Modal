@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(10, 10, 10, 0.855);
+    height: 100%;
+    overflow: hidden
+}
+
+
+
+.fa-solid.fa-square-xmark,
+.fa-solid.fa-circle-exclamation {
+   font-size: 45px;
+   color: rgb(53, 1, 108);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-self: center ;
+    gap: 700px;
+}
+
+.fa-solid.fa-square-xmark:hover {
+    color: rgb(83, 2, 170);
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+p {
+    color: white;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(83, 83, 83);
+    border-color: orange;
+    margin: 300px;
+    border-radius: 12px;
+    padding: 20px 40px;
+}
+
+.close-btn, 
+.cancel-btn {
+    border: solid;
+    border-radius: 14px;
+    padding: 7px 30px;
+    color: white;
+}
+
+.close-btn {
+    background-color: rgb(83, 83, 83) ;
+    border-color: rgb(83, 83, 83) ;
+}
+
+.close-btn:hover {
+    border-color: white;
+    border: solid;
+    cursor: pointer;
+}
+
+.cancel-btn {
+ background-color: rgb(53, 1, 108);
+ border: none;
+}
+
+.cancel-btn:hover {
+    background-color:rgb(83, 2, 170);
+    cursor: pointer;
+}
+
+
+.confirm-btns {
+    display: flex;
+    gap: 15px;
+
+}
