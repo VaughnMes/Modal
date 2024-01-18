@@ -1,7 +1,8 @@
 body {
     background-color: rgba(10, 10, 10, 0.855);
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
+    display: flex;
 }
 
 
@@ -39,10 +40,10 @@ p {
     flex-direction: column;
     align-items: center;
     background-color: rgb(83, 83, 83);
-    border-color: orange;
     margin: 300px;
     border-radius: 12px;
     padding: 20px 40px;
+    flex: 1;
 }
 
 .close-btn, 
